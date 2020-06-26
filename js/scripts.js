@@ -53,7 +53,7 @@ function displayPlacesDetail(placesIveBeenBookToDisplay) {
   let placesList = ($("ul#places"));
   let htmlForPlacesInfo = "";
   placesIveBeenBookToDisplay.places.forEach(function(place) {
-    htmlForPlacesInfo += "<li id=" + place.id + ">" + place.cityName + "<li>";
+    htmlForPlacesInfo += "<li id=" + place.id + ">" + place.cityName + "</li>";
   });
   placesList.html(htmlForPlacesInfo)
 }
@@ -76,7 +76,7 @@ function attachPlacesListeners() {
   $("#buttons").on("click", ".deleteButton", function() {
     placesIveBeenBook.deletePlace(this.id);
     $("#show-places").hide();
-    displayPlacesDetail(placesIveBeenBook);
+    // displayPlacesDetail(placesIveBeenBook);
   });
 };
 

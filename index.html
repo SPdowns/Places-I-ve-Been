@@ -8,42 +8,44 @@
   <title>Places I've Been</title>
 </head>
 <body>
-  <div class= "container">
+  <div class="container">
     <div class= "jumbotron">
       <h2>Places I've Been</h2>
       <p class="titleintro">This website is Designed to keep track of the places we've been.</p>
     </div>
     <div class="boxed">
       <form id="new-place">
-        <div class="form-group">
-          <Label for = "new-place">Place</Label>
-          <input type= "text" id= "new-place">
+        <div class="forms-class">
+          <Label for="new-place">Place</Label>
+          <input type="text" id="new-place">
         </div>
-        <div class="form-group">
+        <div class="forms-class">
           <label for="new-landmark">Landmark</label>
-          <input type= "text" id= "new-landmark">
+          <input type="text" id="new-landmark">
         </div>
-        <div class="form-group">
+        <div class="forms-class">
           <label for="new-date">Date</label>
           <input type="date" id="new-date">
         </div>
-        <div class="form-group">
+        <div class="forms-class">
           <label for="new-notes">Notes</label>
           <input type="text" id="new-notes">
         </div>
         <button type="submit">Press me!</button>
       </form>
-      <h2>Places</h2>
-      <ul id="places"></ul>
-      <div class="col-md-6">
-          <div id="show-places">
-            <p>Landmark: <span class="landmark"></span></p>
-            <p>Date: <span class="date"></span></p>
-            <p>Notes: <span class="notes"></span></p>
-            <div id="buttons">
-            </div>
+    </div>
+    <h2>Places</h2>
+    <ul id="places">
+      
+    </ul>
+    <div class="col-md-6">
+        <div id="show-places">
+          <p>Landmark: <span class="landmark"></span></p>
+          <p>Date: <span class="date"></span></p>
+          <p>Notes: <span class="notes"></span></p>
+          <div id="buttons">
           </div>
-      </div>
+        </div>
     </div>
   </div>
 </body>

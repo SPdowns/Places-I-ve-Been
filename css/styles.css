@@ -20,7 +20,6 @@ input {
 }
 
 .boxed {
-  background-color: black;
   border-style: groove;
   border-color: cornflowerblue;
 }
@@ -28,7 +27,10 @@ input {
 form {
   column-count: 1;
   columns: center;
-  
+}
+
+.forms-class {
+
 }
 
 label {
@@ -36,7 +38,9 @@ label {
 }
 
 body {
-  background-image: url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Ftrevornace%2Ffiles%2F2015%2F11%2Fbeautiful-places-world-1200x900.jpg);
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
   color: aqua;
 }
 
