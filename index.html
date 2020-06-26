@@ -13,27 +13,43 @@
       <h2>Places I've Been</h2>
       <p class="titleintro">This website is Designed to keep track of the places we've been.</p>
     </div>
-    <div class="boxed">
+    <section class="boxed">
       <form id="new-place">
-        <div class="forms-class">
-          <label for="new-place">Place</label>
+        <ul class="flex-outer">
+        <li class="forms-class">
+          <label for="new-places">Place</label>
           <input type="text" id="new-places">
-        </div>
-        <div class="forms-class">
+        </li>
+        <li class="forms-class">
           <label for="new-landmark">Landmark</label>
           <input type="text" id="new-landmark">
-        </div>
-        <div class="forms-class">
+        </li>
+        <li class="forms-class">
           <label for="new-date">Date</label>
           <input type="date" id="new-date">
-        </div>
-        <div class="forms-class">
+        </li>
+        <li class="forms-class">
           <label for="new-notes">Notes</label>
-          <input type="text" id="new-notes">
-        </div>
-        <button type="submit">Press me!</button>
-      </form>
-    </div>
+          <textarea rows="6" id="new-notes" placeholder="Enter your message here"></textarea>
+        </li>
+      </ul>
+      <ul class="flex-inner">
+        <li>
+          <input type="checkbox" id="best">
+          <label for="best">Best</label>
+        </li>
+        <li>
+          <input type="checkbox" id="good">
+          <label for="good">Good</label>
+        </li>
+        <li>
+          <input type="checkbox" id="good">
+          <label for="good">Bad</label>
+        </li>
+      </ul>
+      <button type="submit">Press me!</button>
+      </form> 
+    </section>
     <div class="reveal-places">
       <h2>Places</h2>
       <ul id="places">
