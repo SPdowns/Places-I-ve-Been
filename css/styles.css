@@ -1,17 +1,18 @@
+* { border: 1px solid red; }
+
 img {
   width: 500px;
   height: 600px;
   float: center;
 }
 
-.jumbotron {
+.jumbotrons {
   background-color: black;
   border-style: inset;
   border-color: cornflowerblue
 }
 
 button {
-  padding-left: 10px;
   background-color: red;
 }
 
@@ -19,9 +20,19 @@ input {
   background-color: darkgray;
 }
 
-.boxed {
+#new-place {
+  display: flex;
+  flex-direction: column;
+
+
   border-style: groove;
   border-color: cornflowerblue;
+}
+
+.reveal-places {
+  border-style: groove;
+  border-color: cornflowerblue;
+  height: 250px;
 }
 
 form {

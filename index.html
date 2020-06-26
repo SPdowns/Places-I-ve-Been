@@ -9,15 +9,15 @@
 </head>
 <body>
   <div class="container">
-    <div class= "jumbotron">
+    <div class= "jumbotrons">
       <h2>Places I've Been</h2>
       <p class="titleintro">This website is Designed to keep track of the places we've been.</p>
     </div>
     <div class="boxed">
       <form id="new-place">
         <div class="forms-class">
-          <Label for="new-place">Place</Label>
-          <input type="text" id="new-place">
+          <label for="new-place">Place</label>
+          <input type="text" id="new-places">
         </div>
         <div class="forms-class">
           <label for="new-landmark">Landmark</label>
@@ -34,18 +34,20 @@
         <button type="submit">Press me!</button>
       </form>
     </div>
-    <h2>Places</h2>
-    <ul id="places">
-      
-    </ul>
-    <div class="col-md-6">
-        <div id="show-places">
-          <p>Landmark: <span class="landmark"></span></p>
-          <p>Date: <span class="date"></span></p>
-          <p>Notes: <span class="notes"></span></p>
-          <div id="buttons">
+    <div class="reveal-places">
+      <h2>Places</h2>
+      <ul id="places">
+        
+      </ul>
+      <div class="col-md-6">
+          <div id="show-places">
+            <p>Landmark: <span class="landmark"></span></p>
+            <p>Date: <span class="date"></span></p>
+            <p>Notes: <span class="notes"></span></p>
+            <div id="buttons">
+            </div>
           </div>
-        </div>
+      </div>
     </div>
   </div>
 </body>
